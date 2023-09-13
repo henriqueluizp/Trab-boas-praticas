@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #333;
+  color: #f44c00;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.card-wrapper {
+  border: #f44c00 solid 3px;
+  padding: 1.2rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card-wrapper .title {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.card-wrapper .inset-age input {
+  background: white;
+  border: transparent;
+  margin-top: 1rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 8px;
+}
+
+.table-datas {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.table-datas table {
+  border-radius: 8px;
+}
+
+.table-datas tr {
+  border: solid 1px white;
+}
+
+.table-datas tr td {
+  padding: 0.75rem;
+}
+
+tr .top-left {
+  border-radius: 8px 0 0 0;
+}
+
+tr .bottom-left {
+  border-radius: 0 0 0 8px;
+}
+
+tr .top-right {
+  border-radius: 0 8px 0 0;
+}
+
+tr .bottom-right {
+  border-radius: 0 0 8px 0;
+}
+
+.geral {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
